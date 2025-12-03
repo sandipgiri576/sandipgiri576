@@ -13,6 +13,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sandip_Giri-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sandip-giri-88314a197/)
 [![Twitter](https://img.shields.io/badge/Twitter-@sandipgiri576-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sandipgiri576)
 [![GitHub](https://img.shields.io/badge/GitHub-sandipgiri576-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sandipgiri576)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=C5wiJHAAAAAJ&hl=en)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0001-9015-5441)
 [![Email](https://img.shields.io/badge/Email-sg.chem4@kgpian.iitkgp.ac.in-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sg.chem4@kgpian.iitkgp.ac.in)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=sandipgiri576&color=brightgreen&style=for-the-badge)
