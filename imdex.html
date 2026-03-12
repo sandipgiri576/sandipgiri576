@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandip Giri - CV</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #2980b9;
+            --text-color: #333;
+            --bg-color: #f9f9f9;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .header-info h1 {
+            margin: 0;
+            color: var(--primary-color);
+            font-size: 2.5em;
+        }
+        .header-info p {
+            margin: 5px 0;
+            font-size: 1.1em;
+            color: var(--secondary-color);
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent-color);
+            background-color: #eee;
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        .section-content {
+            margin-bottom: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .publication-title {
+            font-weight: bold;
+        }
+        .journal-info {
+            font-style: italic;
+            color: var(--secondary-color);
+        }
+        .btn-download {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: var(--accent-color);
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            font-size: 16px;
+        }
+        .btn-download:hover {
+            background-color: #1c5980;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        /* Print Styles */
+        @media print {
+            body {
+                background-color: #fff;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 0;
+                max-width: 100%;
+            }
+            .btn-download {
+                display: none; /* Hides the button when printing/saving to PDF */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <button class="btn-download" onclick="window.print()">Download as PDF</button>
+
+    <div class="container">
+        <div class="header">
+            <div class="header-info">
+                <h1>SANDIP GIRI</h1>
+                <p><strong>Computational Chemistry | 20CY91R19</strong> [cite: 2, 3]</p>
+                <p>Kharagpur, West Bengal, India</p>
+            </div>
+            <img src="profile.jpg" alt="Profile Photo" class="profile-img" onerror="this.src='https://via.placeholder.com/120?text=Photo'">
+        </div>
+
+        <div class="section-content">
+            <h2>PROFESSIONAL PROFILE</h2>
+            <p>Computational chemist with extensive expertise in molecular modeling, cheminformatics, and machine learning-driven property prediction[cite: 5]. Research focuses on the exploration of chemical space, specifically strained hydrocarbons for high-energy-density sustainable aviation fuels and Thermally Activated Delayed Fluorescence (TADF) molecules. Skilled in automation of high-throughput screening and workflow management for accelerated discovery[cite: 6]. Developer of PyAr, a stochastic LEGO-based molecule generator, applied successfully to identify 20 novel hydrocarbon aviation fuel candidates and 16 novel cage-like molecules for medicinal chemistry[cite: 8].</p>
+        </div>
+
+        <div class="section-content">
+            <h2>EDUCATION</h2>
+            <table>
+                <tr>
+                    <th>Year [cite: 1]</th>
+                    <th>Degree/Exam [cite: 1]</th>
+                    <th>Institute [cite: 1]</th>
+                    <th>CGPA/Marks [cite: 1]</th>
+                </tr>
+                <tr>
+                    <td>2026 [cite: 1]</td>
+                    <td>PhD [cite: 1]</td>
+                    <td>IIT Kharagpur [cite: 1]</td>
+                    <td>-/- [cite: 1]</td>
+                </tr>
+                <tr>
+                    <td>2020 [cite: 1]</td>
+                    <td>MSc in Chemistry [cite: 1]</td>
+                    <td>National Institute of Technology, Durgapur [cite: 1]</td>
+                    <td>8.83/10 [cite: 1]</td>
+                </tr>
+                <tr>
+                    <td>2018 [cite: 1]</td>
+                    <td>B.Sc Chemistry [cite: 1]</td>
+                    <td>Vidyasagar University, West Bengal [cite: 1]</td>
+                    <td>61% [cite: 1]</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section-content">
+            <h2>SKILLS & EXPERTISE</h2>
+            <ul>
+                <li><strong>Core Competencies:</strong> Chemical space exploration, molecular design, machine learning-driven property prediction, and multi-scale studies[cite: 5, 7].</li>
+                <li><strong>Computational Software:</strong> Proficient in ORCA, Gaussian, SHARC (surface hopping), xTB, CREST, and Multiwfn[cite: 7]. Experienced with ML potentials and frameworks including AIQM2, Chemprop, AIMNet2, D-MPNN, and SVM.</li>
+                <li><strong>Programming & Automation:</strong> Strong foundation in Python, Bash, and SLURM, with working knowledge of Fortran for HPC job scheduling and data handling[cite: 9].</li>
+                <li><strong>Software Development:</strong> Developer and advanced user of PyAr (https://github.com/anooplab/pyar), a framework extended for atomic cluster generation, reaction pathway exploration, and high-throughput virtual screening[cite: 8]. Skilled in building web applications for computational workflows[cite: 10].</li>
+            </ul>
+        </div>
+
+        <div class="section-content">
+            <h2>SELECTED PUBLICATIONS</h2>
+            <ul>
+                <li>
+                    <span class="publication-title">Computational Exploration of Small Hydrocarbon Networks: A Stochastic Generation and DFT Refinement Framework</span>[cite: 28, 29].
+                    <br>Giri, S., Satpati, S., Roy, Tarun, Ghosal, S., Anoop, A.
+                    <br><span class="journal-info">Journal of Computational Chemistry (IF=4.8) - Accepted</span>[cite: 30].
+                </li>
+                <li>
+                    <span class="publication-title">Exploring the Chemical Space of Non-Covalent Molecular Clusters using Automated Cluster Building Algorithm and Neural Network Potential</span>[cite: 34, 36].
+                    <br>Giri, S., Anoop, A.
+                    <br><span class="journal-info">Journal of Computational Chemistry (IF=4.8) - Under Revision 1</span>[cite: 37].
+                </li>
+                <li>
+                    <span class="publication-title">Exploring the Conformational Space of a Sulfonyl-Based Ionic Liquid on Platinum-Based Mono and Bimetallic Surfaces</span>[cite: 45, 46].
+                    <br>Sarkar, A. P., Sahu, R., Giri, S., Anoop, A., & Reddy, S. K. (2025).
+                    <br><span class="journal-info">Langmuir, 41, 3187-3198 (IF=3.9)</span>[cite: 47, 48].
+                </li>
+                <li>
+                    <span class="publication-title">Computational Investigation of Meso-Substituted, Heavy Atom-Free BODIPY Derivatives as Photosensitizers: Insights From TDDFT and Dynamics Studies</span>[cite: 50, 51].
+                    <br>Banerjee, M., Giri, S., & Anoop, A. (2025).
+                    <br><span class="journal-info">Chemistry - An Asian Journal, 20, e202401325 (IF=3.3)</span>[cite: 52].
+                </li>
+                <li>
+                    <span class="publication-title">Selective synthesis of the missing tiara-like Ni10, Ni5, and Ni6 thiolates by the C-S bond cleavage of bis(thioether) molecules with a DFT study</span>[cite: 56, 57].
+                    <br>Debnath, S., Giri, S., & Mani, G. (2024).
+                    <br><span class="journal-info">Dalton Transactions, 53, 14875-14886 (IF=3.3)</span>[cite: 58].
+                </li>
+            </ul>
+            <p><em>Currently preparing manuscripts on data-driven discovery of synthesizable strained hydrocarbons for ACS Energy and Fuels, and chemical space exploration of TADF emitters for the Journal of Material Chemistry C.</em></p>
+        </div>
+
+        <div class="section-content">
+            <h2>CONFERENCES & PRESENTATIONS</h2>
+            <ul>
+                <li><strong>WATOC 2025 (Norway):</strong> Chemical Space Exploration of TADF Emitters via ML-Driven Multi-Objective Optimization (Poster Presentation)[cite: 68, 69].</li>
+                <li><strong>Theoretical Chemistry Symposiums 2023 (IIT Madras):</strong> PyMLGen: An Efficient and Accurate Explorations of Molecule Generation in Chemical Space (Poster Presentation)[cite: 70].</li>
+                <li><strong>RAC-TCA 2022 (NIT Meghalaya):</strong> Exploration of Hydrocarbon Chemical Space (Poster Presentation)[cite: 72, 73].</li>
+            </ul>
+        </div>
+
+        <div class="section-content">
+            <h2>TRAINING & WORKSHOPS</h2>
+            <ul>
+                <li>Machine Learning for Chemistry and Drug Design (12-week course), iHub Data, IIIT Hyderabad (2022)[cite: 14].</li>
+                <li>Introduction to Using Gaussian, Virtual Winter School on Computational Chemistry (2022)[cite: 17, 18].</li>
+                <li>Simulation methods in Scientific Computing, NSM Nodal Center on HPC & AI, IIT Kharagpur (2021)[cite: 12, 13].</li>
+                <li>Tools and Techniques to Perform Molecular Modelling and Computer-Aided Drug Design, NIPER Guwahati (2021)[cite: 15, 16].</li>
+            </ul>
+        </div>
+
+        <div class="section-content">
+            <h2>EXTRA-CURRICULAR ACTIVITIES</h2>
+            <ul>
+                <li>Actively engaged in academic communities through participation in hackathons and seminars on computational chemistry and scientific programming[cite: 81].</li>
+                <li>Contributed to open-source initiatives and developed reusable scripts for research groups[cite: 82].</li>
+                <li>Organized study circles to promote knowledge exchange in programming, molecular modeling, and HPC[cite: 83].</li>
+                <li>Involved in scientific outreach and mentoring of junior students[cite: 84].</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
